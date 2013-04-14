@@ -1,0 +1,93 @@
+.logo {
+    background: url("eejot_logo_600x.png") no-repeat scroll 0 0 transparent;
+    height: 80px;
+    margin: 0;
+    position: absolute;
+    width: 100px;
+    z-index: 3;
+}
+.group-utility .nav .action {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.07);
+}
+.action-primary {
+    background: none repeat scroll 0 0 #D8682A;
+}
+#header .group-primary .nav > li > a {
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 45px;
+    padding: 0 15px;
+}
+#header .nav > li > a {
+    text-transform: uppercase;
+}
+#header .nav a {
+    display: block;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out 0s;
+}
+#header .form-inline {
+    padding: 7px 35px 8px 0;
+}
+.form-inline {
+    position: relative;
+}
+
+.push-right {
+    float: right !important;
+	margin:0px;
+	margin-left:320px;
+	top:0px;
+}
+.form-inline button .ico-search {
+    padding-left: 0;
+}
+.form-inline button .ico {
+    color: #FFFFFF;
+    display: block;
+    font-size: 16px;
+    padding-left: 2px;
+    text-align: right;
+}
+.ico {
+    display: inline-block;
+    font: 24px/1 IconsRegular;
+    text-transform: none;
+    vertical-align: middle;
+}
+
+#header .form-inline input {
+    border-color: #000000;
+    box-shadow: none;
+    height: 30px;
+    line-height: 1;
+    width: 190px;
+}
+.form-inline *:-moz-placeholder {
+    color: #777777;
+    font-style: italic;
+}
+.form-inline input {
+    border-radius: 5px 5px 5px 5px;
+    padding: 0 40px 0 9px;
+    transition: all 0.25s ease-in-out 0s;
+}
+input, select, textarea, button {
+    margin: 0;
+    font-style: italic;
+}
+.navbar-search {
+    position: relative;
+}
+  
+.navbar-search .search-query {
+    padding-left: 29px;
+}
+.navbar-search .search-query {
+	position: absolute;
+    top: 7px;
+    left: 11px;
+    padding-left: 25px !important;
+    color:#111111
+}
